@@ -12,7 +12,15 @@
       <p>イチゴ</p>
       <p>ブドウ</p>
     </div>
-    <button onclick="displayList()">リスト表示</button>
+    <button onclick="myfunc()">リスト表示</button>
+    <script>
+      var myfunc = function(){
+ 
+        var mydiv = document.getElementById("fruits");
+        mydiv.innerHTML = "<ul><li>リンゴ</li><li>イチゴ</li><li>ブドウ</li></ul>";
+ 
+      }
+    </script>
     <script type="text/javascript" src="./scripts/station15.js"></script>
   </body>
 </html>
